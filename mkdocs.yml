@@ -1,6 +1,8 @@
 site_name: RVC-OneDriveDocs
 site_url: https://TimSoenksen.github.io/RVC-OneDriveDocs/
 
+repo_name: TimSoenksen/RVC-OneDriveDocs
+repo_url: https://github.com/TimSoenksen/RVC-OneDriveDocs
 #set up the material theme (use pip install mkdocs-material to install)
 theme:
   name: material
@@ -24,3 +26,11 @@ theme:
 #site navigation
 nav:
   - Home: index.md
+
+#Extensions
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

@@ -1,0 +1,10 @@
+site_name: RVC-OneDriveDocs
+site_url: https://test.com
+
+#set up the material theme (use pip install mkdocs-material to install)
+theme:
+  name: material
+
+#site navigation
+nav:
+  - Home: index.md

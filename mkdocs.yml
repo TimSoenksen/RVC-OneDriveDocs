@@ -1,5 +1,5 @@
 site_name: RVC-OneDriveDocs
-site_url: https://test.com
+site_url: https://TimSoenksen.github.io/RVC-OneDriveDocs/
 
 #set up the material theme (use pip install mkdocs-material to install)
 theme:
